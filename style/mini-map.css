@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Muli-Regular;
+  src: url(./fonts/PressStart2P.ttf);
+}
+.mini-map .mini-map__list, .mini-map .mini-map__sub-head, .mini-map .mini-map__head {
+  font-family: Muli-Regular, Arial, sans-serif;
+  color: #4CF190;
+}
+
+.mini-map .mini-map__frame_shadow_blue, .mini-map .mini-map__frame_shadow {
+  width: 375px;
+  height: 2px;
+  background: black;
+}
+
+.mini-map {
+  border: 2px solid;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 5px #441DBF;
+}
+
+.mini-map .mini-map__inner-border {
+  background: url(https://i.imgur.com/ROCrKlq.png);
+  width: 340px;
+}
+
+.mini-map .mini-map__inner-border {
+  border: 2px solid;
+  margin: 15px;
+  border-radius: 4px;
+}
+
+.mini-map .mini-map__head {
+  text-align: center;
+  font-size: 15px;
+}
+
+.mini-map .mini-map__sub-head {
+  font-size: 13px;
+  display: inline-block;
+  transform: scale(0.7, 1);
+  margin-left: -40px;
+}
+
+.mini-map .mini-map__list {
+  list-style: none;
+  font-size: 10px;
+  display: inline-block;
+  transform: scale(0.7, 1);
+}
+
+.mini-map .mini-map__list .mini-map__list_item {
+  margin-top: 10px;
+  margin-left: -90px;
+  font-size: 13px;
+}
+
+.mini-map .mini-map__frame_shadow_blue {
+  background: #441DBF;
+  height: 7px;
+}
+
+.mini-map .mini-map__frame_dark-blue {
+  width: 340px;
+  height: 7px;
+  background: #0000B9;
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+}
+
+.screen {
+  border: 2px solid;
+  margin: 10px;
+  width: 1300px;
+}
+
+body {
+  display: flex;
+  background-image: linear-gradient(to top, #6839FF, #6839FF);
+  background-repeat: no-repeat;
+  height: 640px;
+}
+
+/*# sourceMappingURL=mini-map.css.map */
+/*# sourceMappingURL=mini-map.scss.map */
+
+/*# sourceMappingURL=mini-map.css.map */

@@ -1,0 +1,122 @@
+@font-face {
+  font-family: Muli-Regular;
+  src: url(./fonts/PressStart2P.ttf);
+}
+
+.control-panel {
+  margin: 0 auto;
+  width: 370px;
+  height: 200px;
+  border: 2px solid black;
+
+  .back-btn {
+    display: flex;
+    margin-top: 20px; 
+    justify-content: center;
+  }
+}
+
+$btn-width: 105px;
+
+.back-btn-mid, .back-btn-last, .back-btn-first {
+  width: $btn-width;
+  height: 42px;
+  background: #0000B9;
+  border: 2px solid black;
+  box-shadow: 0 5px 0 0 #441DBF;
+  background-image: linear-gradient(to top, #6839FF, #009FFF);
+}
+
+.back-btn-first {
+  border-radius: 5px 0 0 5px;
+}
+
+.back-btn-last {
+  border-radius: 0 5px 5px 0;
+}
+
+.back-btn-mid:active, .back-btn-last:active, .back-btn-first:active {
+  background: #0000B9;
+  box-shadow: 0 0 0 0;
+  transition: .2s;
+}
+
+.frnt-btn-mid, .frnt-btn-last, .frnt-btn-first {
+  color: #0000B9;
+  font-family: Muli-Regular;
+  font-size: 19px;
+  text-align: center;
+  display: inline-block;
+  width: $btn-width;
+  height: 36px;
+  background: #0074FC;
+  border-bottom: 2px solid black;
+  box-shadow: 0 -2px 0 0 #32BBFF,
+              0 -4px 0 0 black;
+  cursor: pointer;
+}
+
+.frnt-btn-first {
+  border-radius: 4px 0 0 4px;
+}
+
+.btn-text {
+  font-size: 13px;
+  vertical-align: -6px;
+}
+
+.frnt-btn-last {
+  border-radius: 0 4px 4px 0;
+}
+
+.back-btn-first {
+  border-right: none;
+}
+
+.back-btn-last {
+  border-left: none;
+}
+
+.frnt-btn-first:active, .frnt-btn-mid:active, .frnt-btn-last:active {
+  transform: translate(0, 4px);
+  border-top: 2px solid black;
+  box-shadow: 0 0 0 0 #32BBFF,
+              0 0 0 0 black;
+  background: #0000B9;
+  color: white;
+  transition: .2s;
+}
+
+.reload-btn {
+  margin: 0 auto;
+  width: 320px;
+  margin-top: 20px;
+
+  .back-btn-mid {
+    width: 3 * $btn-width;
+  }
+}
+
+.reload-btn .frnt-btn-mid {
+  box-shadow: 0 -2px 0 0 #FA73FB,
+              0 -4px 0 0 black;
+  width: 3 * $btn-width;
+  border-radius: 4px;
+  background-color: #DA00CE; 
+}
+
+.reload-btn .frnt-btn-mid:active {
+  box-shadow: 0 0 0 0 #FA73FB,
+              0 0 0 0 black;
+}
+
+.reload-btn .back-btn-mid {
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #960086, #0000B9);
+}
+  
+.btn-upper-border {
+  margin: 0px;
+  border: 1px solid #32BBFF;
+}
+
